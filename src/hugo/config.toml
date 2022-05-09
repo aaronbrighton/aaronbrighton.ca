@@ -78,26 +78,6 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     img = "mcaf.png"
     alt = "MCAF"
 
-#[[params.cert_expired]]
-#    title = "Cisco Certified Network Associate Security"
-#    link = "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html"
-#    img = "ccnas.png"
-#    alt = "CCNAS"
-#    style = [
-#        "background-color:#FFF",
-#        "border-radius:10%"
-#    ]
-
-#[[params.cert_expired]]
-#    title = "Red Hat Certified System Administrator"
-#    link = "https://www.redhat.com/en/services/certification/rhcsa"
-#    img = "rhcsa.png"
-#    alt = "RHCSA"
-#    style = [
-#        "background-color:#FFF",
-#        "border-radius:10%"
-#    ]
-
 [params.projects]
     enable = false
     title = "Projects"
