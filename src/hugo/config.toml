@@ -23,7 +23,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     medium = "aaronbrighton"
     instagram = "aaronbrightonig"
     github = "aaronbrighton"
-    calendly = "https://calendly.com/aaronbrighton/introductions"
+    #calendly = "https://calendly.com/aaronbrighton/introductions"
 
 [params.nav]
     theme_navigation_color = "#202020"
@@ -33,8 +33,9 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     enable = true
     avatar = "aaron-brighton.jpg"
     subtitle = "Aaron Brighton"
-    subsubtitle = "Cloud Architect (Advisor)"
-    hero_right_heading = "Passionate about helping **development teams** find success building efficient, secure, and scalable **modern applications** in the **cloud**."
+    subsubtitle = "Cloud Infrastructure Architect at AWS"
+    #hero_right_heading = "Passionate about helping **development teams** find success building efficient, secure, and scalable **modern applications** in the **cloud**."
+    hero_right_heading = "Building **modern cloud applications** at **AWS** for the **Canadian** public sector."
     hero_right = [
         "**Who am I?**",
         "Over the past [15 years](https://www.linkedin.com/in/aaronbrighton/) I've worked up-and-down the technology stack.  From [software development](https://github.com/aaronbrighton), to building-out and operating [datacenters](img/aaron-brighton-datacenter.jpg), to leading DevOps and IT [transformations](https://www.linkedin.com/in/aaronbrighton/#experience-section).",
@@ -98,7 +99,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
 #    ]
 
 [params.projects]
-    enable = true
+    enable = false
     title = "Projects"
     subtitle = "I'm currently working on"
 
