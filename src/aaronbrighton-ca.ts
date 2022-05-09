@@ -58,7 +58,7 @@ export class AaronBrightonCaStack extends Stack {
         cacheControl: [
           s3deploy.CacheControl.setPublic(),
           s3deploy.CacheControl.mustRevalidate(),
-          s3deploy.CacheControl.maxAge(Duration.minutes(30)),
+          s3deploy.CacheControl.maxAge(Duration.minutes(1)),
         ],
         distribution: cloudfrontToS3Resource.cloudFrontWebDistribution,
       });
